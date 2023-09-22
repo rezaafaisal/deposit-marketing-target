@@ -1,8 +1,6 @@
 # Laporan Proyek Machine Learning - Reza Faisal
 
-## Domain Keuangan
-Domain yang saya angkat yaitu dibidang **Keuangan**
-## Latar Belakang
+## Domain Proyek (Keuangan)
 Deposito berjangka merupakan sumber pendapatan utama bagi bank. Deposito berjangka adalah investasi tunai yang disimpan di lembaga keuangan. Uang Anda diinvestasikan pada tingkat bunga yang disepakati dalam jangka waktu atau jangka waktu tertentu. Bank memiliki berbagai rencana penjangkauan untuk menjual deposito berjangka kepada nasabahnya seperti pemasaran email, iklan, pemasaran telepon, dan pemasaran digital.
 
 Kampanye pemasaran melalui telepon masih tetap menjadi salah satu cara paling efektif untuk menjangkau masyarakat. Namun, kampanye ini memerlukan investasi besar karena pusat panggilan (call center) besar dipekerjakan untuk benar-benar melaksanakan kampanye ini. Oleh karena itu, penting untuk mengidentifikasi nasabah yang paling mungkin melakukan konversi terlebih dahulu sehingga mereka dapat ditargetkan secara spesifik melalui panggilan telepon.
