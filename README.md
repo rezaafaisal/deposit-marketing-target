@@ -78,15 +78,6 @@ Tidak terdapat missing value, tapi memiliki data duplikat sebanyak 4521
 
 Outlier dari boxplot Balance dan Duration akan di hapus
 
-
-
-### Berikut Visualisasi data Categorical Features pada plot : <br>
-<img src="image/Visualisasi _Categorical_Features1.png" style="zoom:70%;" /> 
-<img src="image/Visualisasi _Categorical_Features2.png" style="zoom:70%;" />
-Pada Grafik Pregnancies dapat dilihat bahwa Jumlah kehamilan terbanyak adalah sebanyak 1. Lalu pada grafik  Outcome, data yang terkena diabetes dan tidak terkena diabetes tidak seimbang. Data yang terkena diabetes memiliki jumlah yang terbanyak dibandingkan yang tidak terkena diabetes. <br><br><br>
-
-
-
 ### Berikut Visualisasi data Categorical Features pada histogram :
 <img src="images/job.png"/><br> 
 <img src="images/education.png"/><br>
@@ -118,11 +109,10 @@ Melihat hasil prediksi setiap Categorical Features.<br>
 <img src="images/poutcome target.png"/><br>
 
 #### Numerical Data
-Melihat Hubungan Antara Categorical Features Dengan Target yaitu "y".<br>
+Melihat Hubungan Antara Numerical Features Dengan Target yaitu "y".<br>
 <img src="images/korelasi.png"/><br>
 
 Berdasarkan data dari tabel korelasi diatas, dapat diidentifikasi bahwa fitur age dan day memiliki nilai korelasi yang rendah sehingga fitur tersebut dapat dihapus.
-
 
 ## Data Preparation
 - Menghapus kolom age dan day
