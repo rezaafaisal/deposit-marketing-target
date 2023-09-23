@@ -77,34 +77,74 @@ Tabel 2. Statistik Deskriptif Dataset
 ### Berikut Visualisasi data Categorical Features pada Histogram
 
 <img src="images/job.png"/>
-Gambar 1. Distribusi Fitur Job<br><br>
+
+Gambar 1. Distribusi Fitur Job
+
+Pada fitur job, terdapat nilai yang paling sering muncul yaitu *blue-collar*, *management* dan *technician*. Serta yang paling sedikit yaitu *student* dan *unknown*
+<br><br>
 
 <img src="images/education.png"/>
-Gambar 2. Distribusi Fitur Education<br>
+
+Gambar 2. Distribusi Fitur Education
+
+Pada Gambar 2 yang paliing banyak yaitu nilai *secondary* serta yang paling sedikit yaitu *unknown*
+<br><br>
 
 <img src="images/marital.png"/>
-Gambar 3. Distribusi Fitur marital<br><br>
+
+Gambar 3. Distribusi Fitur marital
+
+Pada fitur ini, yang paling banyak berstatus *married*.
+<br><br>
 
 <img src="images/default.png"/>
-Gambar 4. Distribusi Fitur Default<br><br>
+
+Gambar 4. Distribusi Fitur Default
+
+Hampir semua nasabah memiliki credit card secara default sebanyak 35000 data.
+<br><br>
 
 <img src="images/housing.png"/>
-Gambar 5. Distribusi Fitur Housing<br><br>
+
+Gambar 5. Distribusi Fitur Housing
+
+Pada fitur ini hampir memiliki nilai yang sama, tapi nasabah kebanyakan masih memiliki *housing loan* dibanding yang tidak.
+<br><br>
 
 <img src="images/loan.png"/>
-Gambar 6. Distribusi Fitur Loan<br><br>
+
+Gambar 6. Distribusi Fitur Loan
+
+Hampir kebanyakan nasabah memiliki *loan* atau pinjaman.
+<br><br>
 
 <img src="images/contact.png"/>
-Gambar 7. Distribusi Fitur Contact<br><br>
+
+Gambar 7. Distribusi Fitur Contact
+
+Kebanyakan nasabah dihubungi / dikontak menggunakan *cellular* serta yang paling sedikit menggunakan *telephone*
+<br><br>
 
 <img src="images/month.png"/>
-Gambar 8. Distribusi Fitur Month<br><br>
+
+Gambar 8. Distribusi Fitur Month
+
+Fitur ini adalah bulan dimana nasabah dihubungi, dan yang paling sering ada di bulan *may* dan yang paling sedikit ada di bulan *december*.
+<br><br>
 
 <img src="images/poutcome.png"/>
-Gambar 9. Distribusi Fitur Poutcome<br><br>
+
+Gambar 9. Distribusi Fitur Poutcome
+
+Fitur ini meruapakan hasil kampanye pemasaran sebelumnya, kebanyakan memiliki nilai *unknown* dan yang paling sedikit yaitu *success*.
+<br><br>
 
 <img src="images/y.png"/>
-Gambar 10. Distribusi Fitur Y<br><br>
+
+Gambar 10. Distribusi Fitur Y
+
+Dari data yang disediakan, kebanyakan data memiliki nilai "no"
+<br><br>
 
 Berdasarkan visualisai data kategorik, dapat dilihat bahwa distribusi nilai dari setiap fitur tidak terlalu merata.
 ### Berikut Visualisasi data Numerical Features pada histogram
