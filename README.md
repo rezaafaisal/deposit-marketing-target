@@ -106,10 +106,13 @@ Gambar 9. Distribusi Fitur Poutcome<br><br>
 <img src="images/y.png"/>
 Gambar 10. Distribusi Fitur Y<br><br>
 
+Berdasarkan visualisai data kategorik, dapat dilihat bahwa distribusi nilai dari setiap fitur tidak terlalu merata.
 ### Berikut Visualisasi data Numerical Features pada histogram
 
 <img src="images/numeric.png"/>
 Gambar 11. Distribusi Fitur Numerik<br><br>
+
+Pada bagian data kategori, terdapat 2 fitur yang sangat jauh perbedaan dari satu nilai ke nilai yang lainnya, yaitu pada fitur pdays yang dimana hampir semua baris bernilai -1, begitupun dengan fitur previous. Sehingga akan terbaca sebagai outlier jika nilai nya lebih dari -1. 
 
 ### Multivariate Analysis
 
@@ -262,7 +265,9 @@ Algoritma pada *Machine Learning* yang digunakan antara lain :
 <img src="images/comparison.png" />
 
 Gambar 25. Performa Algoritma *SVM* dan *Neural Network*
-<br><br>
+
+Dapat dilihat pada gambar hasil performa dari setiap algoritma menunjukkan hasil yang cukup seignifikan yang dimana algoritma *Naural Network* lebih unggu dibandingkan *SVM*.
+<br>
 
 | **Metrics** | **Support Vector Machine** | **Neural Network** |
 |---|---|---|
