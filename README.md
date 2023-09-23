@@ -244,7 +244,7 @@ Algoritma pada *Machine Learning* yang digunakan antara lain :
   <img src="images/accuracy.png">
   <br>
   - *F1-Score*
-  Skor F1 adalah Harmonic Mean antara presisi dan recall. Kisaran Skor F1 adalah [0, 1]. Ini memberi tahu kita seberapa tepat pengklasifikasi Anda (berapa banyak instance yang diklasifikasikan dengan benar), serta seberapa robust model kita (tidak melewatkan sejumlah besar instance).<br>
+  Skor F1 adalah Harmonic Mean antara presisi dan recall. Kisaran Skor F1 adalah [0, 1]. Ini memberi tahu seberapa tepat pengklasifikasi (berapa banyak instance yang diklasifikasikan dengan benar), serta seberapa robust modelnya (tidak melewatkan sejumlah besar instance).<br>
   <img src="images/f1-score.png" style="zoom:60%">
   <br>
   - *Precision*
@@ -263,6 +263,17 @@ Algoritma pada *Machine Learning* yang digunakan antara lain :
 
 Gambar 25. Performa Algoritma *SVM* dan *Neural Network*
 <br><br>
+
+| **Metrics** | **Support Vector Machine** | **Neural Network** |
+|---|---|---|
+| Accuracy | 86% | 93% |
+| Precision | 92% | 94% |
+| Recall | 92% | 98% |
+| F1-Score | 92% | 96% |
+
+Tabel 5. Nilai Performa Algoritma
+
+Pada tabel diatas dapat dianalisa bahwa algoritma *Neural Network* memiliki akurasi yang cukup baik dibandingkan dengan algoritm *Support Vector Machine* yang memiliki selisih sebesar 7%
 
 ## Kesimpulan
 
