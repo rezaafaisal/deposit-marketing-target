@@ -224,7 +224,7 @@ Algoritma pada *Machine Learning* yang digunakan antara lain :
   - solver = 'adam' (optimizer menggunakan adam)<br><br>
 
 ## Evaluation
-*Evaluation* adalah tahap untuk mengecek apakah *model* yang sudah kita bangun layak *deploy* atau belum, dibagian inilah performa dari algoritma dicek menggunakan beberapa pendekatan seperti *accuracy*, *precision*, *recall*, dan *f1-score*.
+*Evaluation* adalah tahap untuk mengecek apakah *model* yang sudah dibangun layak *deploy* atau belum, dibagian inilah performa dari algoritma dicek menggunakan beberapa pendekatan seperti *accuracy*, *precision*, *recall*, dan *f1-score*.
 
 - **Confusion Matrix**
   Sebelum menghitung pendekatan tersebut, akan dijelaskan mengenai confusion matrix yang memiliki 4 nilai yaitu :
@@ -273,7 +273,12 @@ Gambar 25. Performa Algoritma *SVM* dan *Neural Network*
 
 Tabel 5. Nilai Performa Algoritma
 
-Pada tabel diatas dapat dianalisa bahwa algoritma *Neural Network* memiliki akurasi yang cukup baik dibandingkan dengan algoritm *Support Vector Machine* yang memiliki selisih sebesar 7%
+Pada tabel diatas dapat dianalisa bahwa algoritma *Neural Network* memiliki akurasi yang cukup baik dibandingkan dengan algoritm *Support Vector Machine* yang memiliki selisih sebesar 7%.
+
+Namun, ada beberapa faktor yang menyebabkan mengapa algoritma *Neural Network* lebih baik untuk kasus projek ini, diantaranya :
+- Kemampuan *Deep Learning*, dengan kemampuan ini, NN dapat memahami hirarki fitur yang lebih dalam data, yang dapat membantu dalam mengekstrak pola yang kompleks karena data ini memiliki beberapa fitur yang tidak saling berkaitan dan cukup kompleks.
+- Kemampuan representasi, umumnya *SVM* digunakan untuk masalah model linear sedangkan *NN* sangat fleksibel dalam mempelajari representasi yang kompleks dari data.
+- Data yang tidak terstruktur, pada kasus ini data yang digunakan tidak terstruktur dan cenderung tidak memiliki keterkaitan suatu fitur dengan yang lainnya. Algoritma *NN* mempunyai kemampuan untuk menangani data yang tidak terstruktur seperti kasus ini, sedangkan *SVM* cocok digunakan jika data tersebut terstruktur.
 
 ## Kesimpulan
 
